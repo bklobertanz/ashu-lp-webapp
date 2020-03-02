@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
+const path = require('path');
 
-router.get('/test', (req,res) => res.send('Cuidador'));
+router.get('/', (req,res) => res.sendFile(path.join(__dirname + '../../../public/cuidador.html')));
 
 module.exports = router; 

@@ -18,10 +18,32 @@ h6 {
   font-weight: 700;
 }
 
+a {
+  cursor: pointer;
+}
+
+nav a:hover {
+  color: #1345D8 !important;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#navbar-buttons p, #navbar-buttons i {
+  color: #1345D8;
+}
+
+.fondo-gris {
+  background-color: #f8f9fa;
+}
+
+.fondo-blanco {
+  background-color: #fff;
+}
+
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background: url("../img/bg-masthead-pc.png") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -48,6 +70,12 @@ header.masthead h1 {
   }
   header.masthead h1 {
     font-size: 3rem;
+  }
+}
+
+@media (max-width: 767px) {
+  header.masthead {
+    background: url("../img/bg-masthead-prueba-cel.png") no-repeat center;
   }
 }
 
@@ -80,6 +108,7 @@ header.masthead h1 {
 }
 
 .features-icons .features-icons-item .features-icons-icon i {
+  color: #1345D8 !important;
   font-size: 4.5rem;
 }
 
@@ -104,7 +133,7 @@ header.masthead h1 {
 .call-to-action {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background: url("../img/bg-masthead-pc.png") no-repeat center center;
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
