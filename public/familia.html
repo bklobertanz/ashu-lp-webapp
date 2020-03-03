@@ -47,10 +47,10 @@
   </div>
 </div>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-light bg-light navbar-expand-lg bg-secondary fixed-top p-0">
+   <!-- Navigation -->
+   <nav class="navbar navbar-light bg-light navbar-expand-lg bg-secondary fixed-top p-0">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger m-0" href="/">
+      <a class="navbar-brand js-scroll-trigger m-0" href="index.html">
         <img class="m-0" src="img/logo.png" width="80" alt="Ashu">
       </a>
       <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,12 +62,13 @@
             <a id="navlinkFamiliar" class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#top">Familiar</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a id="navlinkCuidador" class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/cuidador">Cuidador</a>
+            <a id="navlinkCuidador" class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="cuidador.html">Cuidador</a>
           </li>
         </ul>
         <div id="navbar-buttons" class="ml-auto">
           <span class="text-muted">¿Dudas? <strong style="color:black"> Llámanos</strong></span>
-          <p class="text-center m-0"><i class="fa fa-mobile-alt mr-2"></i>983251468</p>
+          <br>
+          <span class="text-center m-0"><i class="fa fa-mobile-alt mr-2"></i>983251468</span>
         </div>
       </div>
     </div>
@@ -77,33 +78,38 @@
   <header id="top" class="masthead text-white text-center">
     <div class="overlay"></div>
     <div class="container">
-        <div class="row col-lg-5 text text-justify">
+      <div class="row">
+        <div class="col-lg-5 col-md-7 col-sm-11 text text-justify">
           <h1 class="mb-4">Comprometidos con ayudar</h1>
           <h4 class="mb-4">Estamos para ellos, cuando tu no puedes</h4>
           <a class="btn btn-lg btn-primary btnIrContacto" href="#contacto"><strong>Quiero agendar una visita</strong></a>
         </div>
+      </div>
     </div>
   </header>
 <!--Bajada Masthead / Descripción servicio para adultos mayores -->
     <section class="showcase">
       <div class="container-fluid p-0">
         <div class="row no-gutters">
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/am-familiar.jpeg');"></div>
-          <div class="col-lg-6 order-lg-1 my-auto showcase-text text-justify" style="font-size: large;">
-            <h2>Nos especializamos en cuidar</h2>
+          <div class="col-lg-6 order-lg-1 text-white showcase-img">
+          <img src="img/am-familiar.jpg" alt="">
+          </div>
+          <div class="col-lg-6 order-lg-2 my-auto showcase-text">
+            <h2 class="tex">Nos especializamos en cuidar</h2>
             <br>
-            <p>Te sugerimos al cuidador ideal o te damos la opción de escoger a ti, según lo que estimes conveniente, según precio, puntuación o servicios que realiza el cuidador. </p> 
-            <p >Escuchamos, hablamos y compartimos historias con tu ser querido, además ayudamos en labores del hogar y realizamos los cuidados necesarios para lograr su bienestar.</p>
+            <p class="mb-0 lead text-justify">Toma nuestra sugerencia de cuidador o escoge tú, basándote en precio, calificación u opiniones dadas. Nuestros cuidadores escuchan y conversan con tu ser querido, además ayudan en labores del hogar y realizan lo necesario para lograr su bienestar.</p> 
           </div>
         </div>
   
     <!-- Servicios para adultos mayores -->
-    <section class="showcase mb-5 fondo-gris">
-      <div class="container-fluid p-0">
-        <div class="row pl-5 pt-5 mb-5">
+    <section class="fondo-gris">
+      <div class="container-fluid pl-3 pr-3">
+        <div class="row pt-5 mb-5 text-center">
+          <div class="col-lg-12 col-sm-4">
             <h2>Con que podemos ayudar</h2>
+          </div>
         </div>
-        <div class="row d-flex justify-content-around features-icons p-0">
+        <div class="row col-lg-12 col-sm-1 features-icons p-0">
           <div class=" features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
               <i class="fas fa-shopping-bag m-auto text-primary"></i>
@@ -133,12 +139,12 @@
             <!--<p class="lead mb-0 text-justify">¡Felicitaciones! comienza a trabajar y a asistir a las personas que necesitan de tus cuidados.</p>-->
           </div>
         </div>
-        <div class="row features-icons p-0">
+        <div class="row col-lg-12 col-sm-1 features-icons p-0">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
               <i class="fas fa-tshirt m-auto text-primary"></i>
             </div>
-            <h3 class="lead">Vestirse y cambio de ropa</h4>
+            <h3 class="lead">Vestir y cambiar ropa</h4>
             <!--<p class="lead mb-0 text-justify">¡Felicitaciones! comienza a trabajar y a asistir a las personas que necesitan de tus cuidados.</p>-->
           </div>
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
@@ -154,23 +160,29 @@
 
   <!-- Propuestas de valor familia -->
   <section class="showcase">
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-0 text-justify">
       <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/am-ejercicio.jpg');"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img">
+        <img src="img/am-ejercicio.jpg" alt="">
+        </div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2>Más que cuidadores</h2>
           <p class="lead mb-0">Ashu ofrece una compañía increíble para tus seres queridos. Tendrán gran conversación, juegos de mesa, actividad física y más. Disfrutarán de una grata compañía.  </p>
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/clock.jpg');"></div>
+        <div class="col-lg-6 text-white showcase-img">
+        <img src="img/clock.jpg" alt="">
+        </div>
         <div class="col-lg-6 my-auto showcase-text">
           <h2> Somos responsables</h2>
           <p class="lead mb-0">Llegamos a la hora establecida, nos tomamos el tiempo de nuestros clientes en serio.</p>
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/am-cellphone.jpg');"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img">
+        <img class="img-fluid"src="img/am-cellphone.jpg" alt="">
+        </div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2>Pequeñas asesorias</h2>
           <p class="lead mb-0">Ayudamos con el uso de tecnologías, pasos de bailes, juegos de mesa e incluso idiomas ¡Qué esperas!</p>
@@ -178,6 +190,7 @@
       </div>
     </div>
   </section>
+
     <!-- El equipo de fundador -->
     <section id="nosotros" class="testimonials text-center bg-light">
       <div class="container">
@@ -220,7 +233,7 @@
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-lg-6 col-sm-12">
             <h2 class="mb-3"><strong>Comprometidos con ayudar</strong></h2>
             <p class="mb-1">Solicita información o llámanos al<span class="lead ml-2"><i class="fa fa-mobile-alt mr-1"></i>983251468</span></p>
             <p>Déjanos tus datos y te contactaremos</p>
@@ -296,7 +309,7 @@
                     <label for="textComentariosAdicionales">Cuéntanos algo más acerca de lo que necesitas (opcional)</label>
                     <textarea class="form-control col-12 mb-4" name="textComentariosAdicionales" id="textComentariosAdicionales"></textarea>
                   </div>
-                  <div class="row form-group">
+                  <div class="form-row form-group">
                     <div class="form-check">
                       <input id="checkConsentimiento" class="form-check-input" type="checkbox" value="" required>
                       <label class="form-check-label ml-2" for="checkConsentimiento"><small><strong>Acepto las condiciones de uso y consiento el envío de comunicaciones y/o notificaciones de Ashu.*</strong></small>
@@ -313,8 +326,6 @@
         </div>
       </div>
     </section>
-  </div>
-  
 
   <!-- Footer -->
   <footer class="footer bg-light">
