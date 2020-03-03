@@ -29,7 +29,7 @@
             }),
             method: "POST"
         }
-        fetch('http://localhost:3000/contacto', params)
+        fetch('http://157.230.15.186:3000/contacto', params)
         .then(response => response.json())
         .then(data => {
           if(data.success == 'OK'){
