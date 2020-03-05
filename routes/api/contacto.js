@@ -54,12 +54,15 @@ router.post('/',[
 
         //Enviar email via Nodemailer
         let transporter = nodemailer.createTransport({
-                service: "gmail", 
+                service: 'Zoho',
+                host: "smtp.zoho.com", 
+                port: 465,
+                secure: true,
                 auth: {
                   user: process.env.EMAIL, // generated ethereal user
                   pass: process.env.PASSWORD// generated ethereal password
-                }
-              });
+                },
+                });
 
         let mailOptions ={
                 from: process.env.EMAIL,
@@ -81,9 +84,9 @@ router.post('/',[
         };
        transporter.sendMail(mailOptions,(err,data)=>{
                 if(err){
-                  console.log('Ocurrió un error');
+                  console.log('Ocurrió un error:\n'+ err);
                 }else {
-                  console.log('Email enviado!');
+                  console.log('Email enviado: '+ data.response);
                 }
         
         });

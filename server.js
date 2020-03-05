@@ -3,7 +3,7 @@ const app = express();
 const bodyParser = require('body-parser');
 require('dotenv').config();
 const urlencodedParser = bodyParser.urlencoded({ extended: false });
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 3000;
 
 
 const cuidador = require('./routes/api/cuidador.js');
