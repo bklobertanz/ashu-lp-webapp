@@ -29,7 +29,7 @@
             }),
             method: "POST"
         }
-         fetch('http://157.230.15.186/contacto', params)
+        //fetch('http://ashu.cl/contacto', params)
        //fetch('http://localhost:3000/contacto', params)
         .then(response => response.json())
         .then(data => {
